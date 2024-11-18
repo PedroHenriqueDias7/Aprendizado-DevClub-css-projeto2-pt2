@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+}
+
+header {
+    margin-top: 25px;
+    margin-left: 42px;
+    position: absolute;
+}
+
+.link-header {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #17233D;
+    margin-right: 42px;
+    text-decoration: none;
+}
+
+.link-header:hover {
+    opacity: .7;
+}
+
+.button-header {
+    background: #6FBF44;
+    color: #FFFFFF;
+    width: 100px;
+    height: 45px;
+    font-weight: 500;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    line-height: 24px;
+    letter-spacing: 1px;
+}
+
+.button-header:hover {
+    opacity: .7;
+}
+
+.image-main {
+    width: 595px;
+    height: 500px;
+    margin-top: 150px;
+    margin-left: 121px;
+    display: inline-block;
+}
+
+section {
+    display: inline-block;
+    margin-left: 80px;
+}
+
+h1 {
+    margin-top: 342;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    color: #161A49;
+    margin-bottom: 50px;
+}
+
+p {
+    width: 493px;
+    height: 99px;
+    color: #4b505a;
+    line-height: 35px;
+    font-size: 20px;
+    margin-bottom: 60px;
+}
+
+.link-section {
+    width: 112px;
+    height: 27px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #6FBF44;
+    text-decoration: none;
+}
+
+.link-section:hover {
+    opacity: .7;
+}
+/*Esse link também poderia ser um botão.
+Nas configurações do botão seria: background: transparent e border: none;*/
+
+@media screen and (max-width: 390px) {
+
+.container {
+    position: absolute;
+}
+    
+.link-header {
+    display: none;
+    position: absolute;
+}
+
+.button-header {
+    font-size: 12px;
+    width: 91px;
+    height: 31px;
+    margin: 5px 0 0 240px;
+    position: absolute;
+}
+
+h1 {
+    width: 278px;
+    height: 60px;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 29px;
+}
+
+.image-main {
+    width: 312px;
+    height: 288px;
+    display: block;
+    position: absolute;
+    margin: 350px 39px 22px 39px;
+}
+
+section {
+    display: block;
+    margin: 124px 55px 0 55px;
+}
+
+p {
+    width: 304px;
+    height: 165px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    margin-bottom: 26px;
+}
+
+.link-section {
+    width: 112px;
+    height: 27px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-left: 90px;
+    
+}
+
+
+}
+
